@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="details">
+        <field
+            name="id"
+            type="hidden"
+        />
+        <field
+            name="payer"
+            type="text"
+            label="От кого"
+            description="От кого"
+            size="40"
+            class="input-xlarge validate-title"
+            required="true"
+            default=""
+            labelclass="control-label"
+        />
+        <field
+            name="sum"
+            type="text"
+            label="Сумма"
+            description="Сумма"
+            size="40"
+            class="input-xlarge validate-title"
+            required="true"
+            default=""
+            labelclass="control-label"
+        />
+        <field
+            name="fund"
+            type="text"
+            label="Кому"
+            description="Кому"
+            size="40"
+            class="input-xlarge validate-title"
+            required="true"
+            default=""
+            labelclass="control-label"
+        />
+        <field
+            name="date"
+            type="text"
+            label="Когда"
+            description="Когда"
+            size="40"
+            class="input-xlarge validate-title"
+            required="true"
+            default=""
+            labelclass="control-label"
+        />
+    </fieldset>
+</form>
